@@ -16,9 +16,9 @@ set "_NO_INTRO=true"
 rem noloadintro = true/false
 set "_NO_LOAD_INTRO=true"
 rem dpnsvr = true/false
-set "_USE_DIRECTPLAY=false"
+set "_USE_DIRECTPLAY="
 rem vsync = true/false
-set "_VSYNC=false"
+set "_VSYNC="
 rem width = integer
 set "_WIDTH="
 
