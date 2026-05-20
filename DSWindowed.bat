@@ -64,21 +64,25 @@ exit
 :toggleHD
 if %1 == 1 (
 	(
+		ren "%CD%\DSLOA\DSLOA_HRT_00.dsres.off" DSLOA_HRT_00.dsres
 		ren "%CD%\Resources\DS_HRT_a_update.dsres.off" DS_HRT_a_update.dsres
 		ren "%CD%\Resources\DS_HRT_c.dsres.off" DS_HRT_c.dsres
 		ren "%CD%\Resources\DS_HRT_o.dsres.off" DS_HRT_o.dsres
 		ren "%CD%\Resources\DS_HRT_t1.dsres.off" DS_HRT_t1.dsres
 		ren "%CD%\Resources\DS_HRT_t2.dsres.off" DS_HRT_t2.dsres
 		ren "%CD%\Resources\DS_HRT_t3.dsres.off" DS_HRT_t3.dsres
+		ren "%CD%\Resources\DSLOA_HRT_00.dsres.off" DSLOA_HRT_00.dsres
 	) > nul 2>&1
 ) else (
 	(
+		ren "%CD%\DSLOA\DSLOA_HRT_00.dsres" DSLOA_HRT_00.dsres.off
 		ren "%CD%\Resources\DS_HRT_a_update.dsres" DS_HRT_a_update.dsres.off
 		ren "%CD%\Resources\DS_HRT_c.dsres" DS_HRT_c.dsres.off
 		ren "%CD%\Resources\DS_HRT_o.dsres" DS_HRT_o.dsres.off
 		ren "%CD%\Resources\DS_HRT_t1.dsres" DS_HRT_t1.dsres.off
 		ren "%CD%\Resources\DS_HRT_t2.dsres" DS_HRT_t2.dsres.off
 		ren "%CD%\Resources\DS_HRT_t3.dsres" DS_HRT_t3.dsres.off
+		ren "%CD%\Resources\DSLOA_HRT_00.dsres" DSLOA_HRT_00.dsres.off
 	) > nul 2>&1
 )
 
