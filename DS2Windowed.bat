@@ -34,7 +34,7 @@ if "%~1"=="" (
 )
 
 rem Build launch parameters
-set "_LAUNCH_PARAMS=bltonly=true zonematch=true"
+set "_LAUNCH_PARAMS="
 if defined _BPP set "_LAUNCH_PARAMS=%_LAUNCH_PARAMS% bpp=%_BPP%"
 if defined _FULLSCREEN set "_LAUNCH_PARAMS=%_LAUNCH_PARAMS% fullscreen=%_FULLSCREEN%"
 if defined _HEIGHT set "_LAUNCH_PARAMS=%_LAUNCH_PARAMS% height=%_HEIGHT%"
